@@ -2,6 +2,9 @@
 
 This is the repo for all materials for the databases workshops.
 
+1. dboutline.md contains the activites for this session
+2. dbcheatsheet.md contains SQL tips and commands
+
 ## Requirements:
 [SQLite](https://www.sqlite.org/)  
 [SQLiteStudio](http://sqlitestudio.pl/)  
@@ -16,8 +19,8 @@ This is the repo for all materials for the databases workshops.
 
 ## Session 2 Outline (75 min, terminal)
 3. Import data into table (15 min)
-4. General manipulation (45 min)
+4. General manipulation (30 min)
 5. Databases vs. Excel (15 min)
-6. SQL + Python (? min)
+6. SQL + Python 15 min)
   1. set up for Web Frameworks session
 
