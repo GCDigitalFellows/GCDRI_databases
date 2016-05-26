@@ -38,6 +38,14 @@ The syntax for creating a table in SQLite is:
 
 - The [constraints](http://www.tutorialspoint.com/sqlite/sqlite_constraints.htm) will  affect the behavior of the data in that field. Constraints are things like PRIMARY KEY, FOREIGN KEY, UNIQUE, DEFAULT, AUTOINCREMENT, NOT NULL.  
 
+2. Create a table called *programs* with a field (column) for academic programs:  
+```
+CREATE TABLE programs  
+(  
+id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,  
+program VARCHAR  
+);
+```
 
 ###**************Let's take a 15 minute break!**************
 
