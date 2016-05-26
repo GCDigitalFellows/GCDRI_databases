@@ -3,7 +3,7 @@
 This is the repo for all materials for the databases workshops.
 
 1. [dboutline.md](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/dboutline.md) contains the activites for this session
-2. [dbcheatsheet.md](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/dbcheatsheet.md) contains SQL tips and commands
+2. [dbcheatsheet.md](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/dbcheatsheet.md) contains SQL tips and commands  
 
 ## Requirements:
 [SQLite](https://www.sqlite.org/)  
@@ -24,3 +24,6 @@ This is the repo for all materials for the databases workshops.
 6. SQL + Python 15 min)
   1. set up for Web Frameworks session
 
+##Extra Resources  
+1. This tutorial [Fun Times with SQLite!](https://digitalfellows.commons.gc.cuny.edu/2016/04/08/fun-times-with-sqlite-or-a-beginners-tutorial-to-data-management-and-databases-with-sql/) follows the first part of this session  
+2. For designing your database, check out this [SQL designer](http://ondras.zarovi.cz/sql/demo/).
