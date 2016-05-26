@@ -32,7 +32,7 @@ The next step is to create tables to hold your data. From here onwards, we are g
 
 The syntax for creating a table in SQLite is:
 
-'CREATE TABLE *table_name* (*field_name* *data type* *constraints*)'  
+`CREATE TABLE *table_name* (*field_name* *data type* *constraints*)`  
 
 The [data type](https://www.sqlite.org/datatype3.html) will affect the behavior of the data in that field. SQL data types are things like DATE, TIME, VARCHAR, INTEGER, XML.  
 
