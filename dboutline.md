@@ -47,6 +47,21 @@ program VARCHAR
 );
 ```
 
+3. Insert some data into the table we just created:
+```
+INSERT INTO programs(program) VALUES
+(‘Anthropology’),
+(‘Biology’),
+(‘Linguistics’);
+```
+
+4. Add another field for *program level* to the existing table 
+```
+--ADD ANOTHER FIELD TO THE PROGRAMS TABLE
+ALTER TABLE programs
+ADD program_level VARCHAR;
+```
+
 ###**************Let's take a 15 minute break!**************
 
 ## Session 2
