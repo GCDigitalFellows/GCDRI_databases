@@ -28,8 +28,6 @@ The database holds your data, but you need a client to see and interact with it.
 ###Building tables
 The next step is to create tables to hold your data. From here onwards, we are going to execute database queries using the SQL editor, so you can get used to SQL syntax.  
 
-1. Open the SQL editor: go to “Tools” and click on “Open SQL editor”.  
-
 The syntax for creating a table in SQLite is:
 
 `CREATE TABLE [table_name] ( [field_name] [data type] [constraints] )`  
@@ -37,6 +35,8 @@ The syntax for creating a table in SQLite is:
 - The [data type](https://www.sqlite.org/datatype3.html) will affect the behavior of the data in that field. SQL data types are things like DATE, TIME, VARCHAR, INTEGER, XML.  
 
 - The [constraints](http://www.tutorialspoint.com/sqlite/sqlite_constraints.htm) will  affect the behavior of the data in that field. Constraints are things like PRIMARY KEY, FOREIGN KEY, UNIQUE, DEFAULT, AUTOINCREMENT, NOT NULL.  
+
+1. Open the SQL editor: go to “Tools” and click on “Open SQL editor”.  
 
 2. Create a table called *programs* with a field (column) for academic programs:  
 ```
