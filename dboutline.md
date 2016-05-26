@@ -1,4 +1,4 @@
-#These are the activities for the June 2016 GCDRI databases sessions
+#Activities - June 2016 GCDRI databases session
 
 ## Session 1 
 Objectives: 

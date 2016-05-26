@@ -2,8 +2,8 @@
 
 This is the repo for all materials for the databases workshops.
 
-1. dboutline.md contains the activites for this session
-2. dbcheatsheet.md contains SQL tips and commands
+1. [dboutline.md](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/dboutline.md) contains the activites for this session
+2. [dbcheatsheet.md](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/dbcheatsheet.md) contains SQL tips and commands
 
 ## Requirements:
 [SQLite](https://www.sqlite.org/)  
