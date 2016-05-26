@@ -39,21 +39,21 @@ The syntax for creating a table in SQLite is:
 1. Open the SQL editor: go to “Tools” and click on “Open SQL editor”.  
 
 2. Create a table called *programs* with a field (column) for academic programs:  
-```
-CREATE TABLE programs  
-(  
-id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,  
-program VARCHAR  
-);
-```
+	```
+	CREATE TABLE programs  
+	(  
+	id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,  
+	program VARCHAR  
+	);
+	```
 
 3. Insert some data into the table we just created:
-```
-INSERT INTO programs(program) VALUES
-(‘Anthropology’),
-(‘Biology’),
-(‘Linguistics’);
-```
+	```
+	INSERT INTO programs(program) VALUES
+	(‘Anthropology’),
+	(‘Biology’),
+	(‘Linguistics’);
+	```
 
 4. Add another field for *program level* to the existing table 
 ```
