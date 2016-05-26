@@ -1,8 +1,8 @@
 #Activities - June 2016 GCDRI databases session
 
 ## Session 1 
-Objectives: 
-1. Develop a conceptual understanding of databases and SQL
+###Objectives:  
+1. Develop a conceptual understanding of databases and SQL  
 2. learn basic SQL syntax for creating databases and executing queries
 
 ####*What is a database?*
