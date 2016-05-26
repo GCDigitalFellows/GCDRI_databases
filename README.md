@@ -3,13 +3,11 @@
 This is the repo for all materials for the databases workshops.
 
 ## Requirements:
-[SQLite](https://www.sqlite.org/)
-
-[SQLiteStudio](http://sqlitestudio.pl/)
-
+[SQLite](https://www.sqlite.org/)  
+[SQLiteStudio](http://sqlitestudio.pl/)  
 [sqlite3](https://docs.python.org/2/library/sqlite3.html) Python library
 
-## Session 1 Outline ###(75 min, SQLiteStudio)
+## Session 1 Outline (75 min, SQLiteStudio)
 1. Concepts of databases (10 min)
 2. Build table (65 min)
   1. get concepts/reinforce variables and types
