@@ -21,7 +21,7 @@ This is the repo for all materials for the databases workshops.
 3. Import data into table (15 min)
 4. General manipulation (30 min)
 5. Databases vs. Excel (15 min)
-6. SQL + Python 15 min)
+6. SQL + Python (15 min)
   1. set up for Web Frameworks session
 
 ##Extra Resources  

@@ -3,7 +3,7 @@
 ## Session 1 
 ###Objectives:  
 1. Develop a conceptual understanding of databases and SQL  
-2. learn basic SQL syntax for creating databases and executing queries
+2. Learn basic SQL syntax for creating databases and executing queries
 
 ####*What is a database?*
 
@@ -56,11 +56,11 @@ The syntax for creating a table in SQLite is:
 	```
 
 4. Add another field for *program level* to the existing table 
-```
---ADD ANOTHER FIELD TO THE PROGRAMS TABLE
-ALTER TABLE programs
-ADD program_level VARCHAR;
-```
+	```
+	--ADD ANOTHER FIELD TO THE PROGRAMS TABLE
+	ALTER TABLE programs
+	ADD program_level VARCHAR;
+	```
 
 ###**************Let's take a 15 minute break!**************
 
