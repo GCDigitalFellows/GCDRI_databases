@@ -20,10 +20,14 @@ We’re going to use SQLite in this session because getting set up requires less
 The database holds your data, but you need a client to see and interact with it. There are a couple options for SQLite GUI database mangers--for the first part of this session we will be suing [SQLiteStudio](http://sqlitestudio.pl/). SQLite also has a [command-line utility](http://www.sqlite.org/cli.html), which we will use in the second part of this session.
 
 ###Building a database  
-1. Create a database file using the SQLite GUI: click on “Database” then “Add a database”.  
-2. Give your database a name (mine is "db1") and make sure to save it to a directory that is outside of the SQLiteStudio download folder (I saved my “db1” on my desktop).  
+1. Create a database file using the SQLite GUI.  
+![Create a database using SQLite GUI]( GCDRI_databases/images/add_db.png)  
 
-3. Connect to the database you just created. You should see your database file in the left-hand “Databases” window--Click on it and select “Connect to the database”.  
+2. Give your database a name and make sure to save it to a directory that is outside of the SQLiteStudio download folder.  
+![Name your database file and save it outside of the SQLiteStudio download folder]( GCDRI_databases/images/db_info.png)  
+
+3. Connect to the database you just created.    
+![Connect to the database you just created]( GCDRI_databases/images/conn_db.png)  
 
 ###Building tables
 The next step is to create tables to hold your data. From here onwards, we are going to execute database queries using the SQL editor, so you can get used to SQL syntax.  
