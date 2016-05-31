@@ -51,7 +51,7 @@ Your SQLiteStudio interface should look like this:
 
 ![SQLiteStudio interface with SQL editor and databases window](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/sqlite_wkspace.png)  
 
-2. Create a table called "programs" with a field (i.e., column) for academic programs:  
+2. Create a table called "programs" with a field (i.e., column) for academic programs  
 	```
 	CREATE TABLE programs  
 	(  
@@ -62,7 +62,7 @@ Your SQLiteStudio interface should look like this:
 
 	![Creating "programs" table](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/create_table.png)  
 
-3. Insert some data into the table we just created:
+3. Insert some data into the table we just created  
 	```
 	INSERT INTO programs(program) VALUES
 	(‘Anthropology’),
@@ -73,12 +73,46 @@ Your SQLiteStudio interface should look like this:
 	Click on "Data" to view the data that you just inserted into the "programs" table.  
 	![Click "Data" to view "programs" table with new data](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/view_table.png)
 
-4. Add another field for "program_level" to the existing table 
+4. Add another field for "program_level" to the existing table  
 	```
 	--ADD ANOTHER FIELD TO THE PROGRAMS TABLE
 	ALTER TABLE programs
 	ADD program_level VARCHAR;
 	```
+
+	If the query was successful, your database should now look like this:  
+
+	![Your database after adding the new "program_level" field](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/new_field.png)  
+
+5. Now, let's populate the new empty "program_level" field with some data  
+	```
+	--UPDATE THE PROGRAM_LEVEL FIELD FOR "LINGUISTICS"
+	UPDATE programs
+	SET program_level = 'Master''s'
+	WHERE program = 'Linguistics';
+	```  
+
+	```
+	--UPDATE THE PROGRAM_LEVEL FIELD FOR "ANTHROPOLOGY" AND "BIOLOGY"
+	UPDATE programs
+	SET program_level = 'Ph.D.'
+	WHERE program IN ('Anthropology', 'Biology');
+	```  
+
+	At this point, we're going to create another table called "students" to illustrate the relational nature of relational databases. We use the same syntax that we used to create the "programs" table, but with one extra element: a foreign key.  
+
+6. Create a table called "students" with a field for (1) a primary key, (2) student name, and (3) a foreign key that will reference the "programs" table  
+	```
+	--CREATE A TABLE FOR STUDENTS (PAY ATTENTION TO THE FOREIGN KEY!)
+	CREATE TABLE students
+	(
+	id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+	student VARCHAR(255),
+	id_program INTEGER,
+	FOREIGN KEY (id_program) REFERENCES programs(id)
+	);  
+
+	
 
 ###**************Let's take a 15 minute break!**************
 
