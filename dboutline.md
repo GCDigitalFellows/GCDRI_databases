@@ -3,7 +3,7 @@
 ## Session 1 
 ###Objectives:  
 1. Develop a conceptual understanding of databases and SQL  
-2. Learn basic SQL syntax for creating databases and executing queries
+2. Learn basic SQL syntax for building a database  
 
 ####*What is a database?*
 
@@ -33,15 +33,26 @@ The database holds your data, but you need a client to see and interact with it.
 	![Connect to the database you just created](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/conn_db.png)  
 
 ###Building tables
-The next step is to create tables to hold your data. From here onwards, we are going to execute database queries using the SQL editor, so you can get used to SQL syntax.  
+The next step is to create tables to hold your data. From here onwards, we are going to execute database queries using the SQL editor to practice SQL syntax.  
 
 The syntax for creating a table in SQLite is:
 
 `CREATE TABLE [table_name] ( [field_name] [data type] [constraints] )`  
 
-- The [data type](https://www.sqlite.org/datatype3.html) will affect the behavior of the data in that field. SQL data types are things like DATE, TIME, VARCHAR, INTEGER, XML.  
+- The [data type](https://www.sqlite.org/datatype3.html) will affect the behavior of the data in that field. SQL data types are things like:  
+	- DATE  
+	- TIME  
+	- VARCHAR  
+	- INTEGER  
+	- XML  
 
-- The [constraints](http://www.tutorialspoint.com/sqlite/sqlite_constraints.htm) will  affect the behavior of the data in that field. Constraints are things like PRIMARY KEY, FOREIGN KEY, UNIQUE, DEFAULT, AUTOINCREMENT, NOT NULL.  
+- The [constraints](http://www.tutorialspoint.com/sqlite/sqlite_constraints.htm) will  affect the behavior of the data in that field. Constraints are things like:  
+	- PRIMARY KEY  
+	- FOREIGN KEY  
+	- UNIQUE  
+	- DEFAULT  
+	- AUTOINCREMENT  
+	- NOT NULL  
 
 1. Open the SQL editor.  
 
@@ -100,9 +111,9 @@ The syntax for creating a table in SQLite is:
 	WHERE program IN ('Anthropology', 'Biology');
 	```  
 
-	At this point, we're going to create another table called "students" to illustrate the relational nature of relational databases. We use the same syntax that we used to create the "programs" table, but with one extra element: a foreign key.  
+	At this point, we're going to create another table called "students" to illustrate the relational nature of relational databases. We use the same syntax that we used to create the "programs" table, but with one extra element: *a foreign key*.  
 
-6. Create a table called "students" with a field for (1) a primary key, (2) student name, and (3) a foreign key that will reference the "programs" table  
+6. Create a table called "students" with a field for: (1) a primary key, (2) student name, and (3) a foreign key that will reference the "programs" table  
 	```
 	--CREATE A TABLE FOR STUDENTS (PAY ATTENTION TO THE FOREIGN KEY!)
 	CREATE TABLE students
@@ -114,11 +125,13 @@ The syntax for creating a table in SQLite is:
 	);
 	```  
 
-	The structure of your "studnets" table should look like this:  
+	The structure of your "students" table should look like this:  
 
 	![Structure of the new "students" table](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/student_tab_struc.png)  
 
-	The foreign key points to a primary key in another table, in this case the ‘programs’ table. This relationship is specified with the clause `FOREIGN KEY (id_program) REFERENCES programs(id)`, which links the ‘id_program’ field in the ‘students’ table to the ‘id’ field in the ‘programs’ table. This relationship requires that all records in the ‘students’ table point to a valid primary key in the ‘programs’ table.  
+	The foreign key points to a primary key in another table, in this case the "programs" table. This relationship is specified with the clause `FOREIGN KEY (id_program) REFERENCES programs(id)`, which links the "id_program" field in the "students" table to the "id" field in the "programs" table.  
+
+	All records in the "students" table must point to a valid primary key in the "programs" table.  
 
 7. The last step is to add some data to the new "students" table
 	```
@@ -132,11 +145,14 @@ The syntax for creating a table in SQLite is:
 	('Sarah', 1);
 	```  
 
+
 ###**************Let's take a 15 minute break!**************
+
+
 
 ## Session 2
 ###Objectives: 
-1. Practice querying your data  
+1. Practice querying your database  
 2. Learn how to import existing data into a db table  
 3. Integrate SQL with Python
 
