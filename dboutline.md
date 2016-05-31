@@ -21,12 +21,15 @@ The database holds your data, but you need a client to see and interact with it.
 
 ###Building a database  
 1. Create a database file using the SQLite GUI.  
+
 ![Create a database using SQLite GUI](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/add_db.png)  
 
 2. Give your database a name and make sure to save it to a directory that is outside of the SQLiteStudio download folder.  
+
 ![Name your database file and save it outside of the SQLiteStudio download folder](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/db_info.png)  
 
 3. Connect to the database you just created.    
+
 ![Connect to the database you just created](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/conn_db.png)  
 
 ###Building tables
@@ -40,9 +43,15 @@ The syntax for creating a table in SQLite is:
 
 - The [constraints](http://www.tutorialspoint.com/sqlite/sqlite_constraints.htm) will  affect the behavior of the data in that field. Constraints are things like PRIMARY KEY, FOREIGN KEY, UNIQUE, DEFAULT, AUTOINCREMENT, NOT NULL.  
 
-1. Open the SQL editor: go to “Tools” and click on “Open SQL editor”.  
+1. Open the SQL editor.  
 
-2. Create a table called *programs* with a field (column) for academic programs:  
+![To open SQL editor, click “Tools” and “Open SQL editor”](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/open_sql_ed.png)  
+
+Your SQLiteStudio interface should look like this:  
+
+![SQLiteStudio interface with SQL editor and databases window](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/sqlite_wkspace.png)  
+
+2. Create a table called __*programs*__ with a field (i.e., column) for academic programs:  
 	```
 	CREATE TABLE programs  
 	(  
@@ -59,7 +68,7 @@ The syntax for creating a table in SQLite is:
 	(‘Linguistics’);
 	```
 
-4. Add another field for *program level* to the existing table 
+4. Add another field for __*program level*__ to the existing table 
 	```
 	--ADD ANOTHER FIELD TO THE PROGRAMS TABLE
 	ALTER TABLE programs

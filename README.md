@@ -13,7 +13,6 @@ This is the repo for all materials for the databases workshops.
 ## Session 1 Outline (75 min, SQLiteStudio)
 1. Concepts of databases (10 min)
 2. Build table (65 min)
-  1. get concepts/reinforce variables and types
 
 ### Break (15 min)
 
