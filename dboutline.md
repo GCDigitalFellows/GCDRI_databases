@@ -159,7 +159,7 @@ Together, the `SELECT` clause essentially creates a new table based on the crite
 1. This query returns all of the records (i.e., rows) in the "students" table:  
 	```
 	--SHOW ALL FIELDS FOR EACH RECORD IN THE TABLE STUDENTS
-	SELECT *   --'*' is a wildcard in SQL
+	SELECT *   --( '*' is a wildcard in SQL )
 	FROM students;
 	```  
 
@@ -179,7 +179,7 @@ Together, the `SELECT` clause essentially creates a new table based on the crite
 	FROM students;
 	```  
 
-4. This filters the records that are returned by their value in the "id" field:  
+4. This filters the records by their value in the "id" field:  
 	```
 	--SHOW ALL FIELDS FOR EACH RECORD IN THE TABLE STUDENTS WHERE THE VALUE OF THE
 	--ID FIELD IS EQUAL TO "3"
@@ -188,7 +188,7 @@ Together, the `SELECT` clause essentially creates a new table based on the crite
 	WHERE id = '3';
 	```  
 
-5. Each of the queries up to now is just returning data from one table in the database. This query combines our "students" and "programs" tables using a `JOIN` clause:  
+5. Each of the queries up to now is just returning data from one table in the database. This final query combines our "students" and "programs" tables using the `INNER JOIN` and `ON` clause:  
 	```
 	--SHOW ALL THE RECORDS FOR STUDENT WITH THE INFORMATION ABOUT THEIR
 	--RESPECTIVE PROGRAMS
@@ -201,7 +201,7 @@ Together, the `SELECT` clause essentially creates a new table based on the crite
 
 	![Result of a query joining the "students" and "programs" tables](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/join_table.png)  
 
-	This final query demonstrates the power of relational databases by using the foreign key in the "students" table to coordinating data with the "programs" table.  
+	This query demonstrates the power of relational databases by using the foreign key in the "students" table to coordinating data with the "programs" table.  
 
 
 ###**************Let's take a 15 minute break!**************
