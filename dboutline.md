@@ -22,15 +22,15 @@ The database holds your data, but you need a client to see and interact with it.
 ###Building a database  
 1. Create a database file using the SQLite GUI.  
 
-![Create a database using SQLite GUI](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/add_db.png)  
+	![Create a database using SQLite GUI](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/add_db.png)  
 
 2. Give your database a name and make sure to save it to a directory that is outside of the SQLiteStudio download folder.  
 
-![Name your database file and save it outside of the SQLiteStudio download folder](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/db_info.png)  
+	![Name your database file and save it outside of the SQLiteStudio download folder](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/db_info.png)  
 
 3. Connect to the database you just created.    
 
-![Connect to the database you just created](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/conn_db.png)  
+	![Connect to the database you just created](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/conn_db.png)  
 
 ###Building tables
 The next step is to create tables to hold your data. From here onwards, we are going to execute database queries using the SQL editor, so you can get used to SQL syntax.  
@@ -45,11 +45,11 @@ The syntax for creating a table in SQLite is:
 
 1. Open the SQL editor.  
 
-![To open SQL editor, click “Tools” and “Open SQL editor”](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/open_sql_ed.png)  
+	![To open SQL editor, click “Tools” and “Open SQL editor”](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/open_sql_ed.png)  
 
-Your SQLiteStudio interface should look like this:  
+	Your SQLiteStudio interface should look like this:  
 
-![SQLiteStudio interface with SQL editor and databases window](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/sqlite_wkspace.png)  
+	![SQLiteStudio interface with SQL editor and databases window](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/sqlite_wkspace.png)  
 
 2. Create a table called "programs" with a field (i.e., column) for academic programs  
 	```
@@ -71,6 +71,7 @@ Your SQLiteStudio interface should look like this:
 	```
 
 	Click on "Data" to view the data that you just inserted into the "programs" table.  
+
 	![Click "Data" to view "programs" table with new data](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/view_table.png)
 
 4. Add another field for "program_level" to the existing table  
@@ -110,7 +111,8 @@ Your SQLiteStudio interface should look like this:
 	student VARCHAR(255),
 	id_program INTEGER,
 	FOREIGN KEY (id_program) REFERENCES programs(id)
-	);  
+	);
+	```  
 
 	The structure of your "studnets" table should look like this:  
 
@@ -127,7 +129,8 @@ Your SQLiteStudio interface should look like this:
 	('Josefina', 3),
 	('Cecilia', 2),
 	('Nico', 2),
-	('Sarah', 1);  
+	('Sarah', 1);
+	```  
 
 ###**************Let's take a 15 minute break!**************
 
