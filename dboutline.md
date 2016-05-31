@@ -112,14 +112,29 @@ Your SQLiteStudio interface should look like this:
 	FOREIGN KEY (id_program) REFERENCES programs(id)
 	);  
 
-	
+	The structure of your "studnets" table should look like this:  
+
+	![Structure of the new "students" table](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/student_tab_struc.png)  
+
+	The foreign key points to a primary key in another table, in this case the ‘programs’ table. This relationship is specified with the clause `FOREIGN KEY (id_program) REFERENCES programs(id)`, which links the ‘id_program’ field in the ‘students’ table to the ‘id’ field in the ‘programs’ table. This relationship requires that all records in the ‘students’ table point to a valid primary key in the ‘programs’ table.  
+
+7. The last step is to add some data to the new "students" table
+	```
+	--INSERT SOME DATA INTO THE STUDENTS TABLE
+	--REMEMBER THAT THE PRIMARY KEY WILL AUTOINCREMENT
+	--FOREIGN KEYS MUST BE ENTERED MANUALLY
+	INSERT INTO students(student, id_program) VALUES
+	('Josefina', 3),
+	('Cecilia', 2),
+	('Nico', 2),
+	('Sarah', 1);  
 
 ###**************Let's take a 15 minute break!**************
 
 ## Session 2
 ###Objectives: 
-1. Learn how to import existing data into a db table  
-2. Practice querying your data  
+1. Practice querying your data  
+2. Learn how to import existing data into a db table  
 3. Integrate SQL with Python
 
 
