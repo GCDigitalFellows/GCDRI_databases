@@ -51,7 +51,7 @@ Your SQLiteStudio interface should look like this:
 
 ![SQLiteStudio interface with SQL editor and databases window](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/sqlite_wkspace.png)  
 
-2. Create a table called __*programs*__ with a field (i.e., column) for academic programs:  
+2. Create a table called "programs" with a field (i.e., column) for academic programs:  
 	```
 	CREATE TABLE programs  
 	(  
@@ -59,6 +59,8 @@ Your SQLiteStudio interface should look like this:
 	program VARCHAR  
 	);
 	```
+
+	![Creating "programs" table](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/create_table.png)  
 
 3. Insert some data into the table we just created:
 	```
@@ -68,7 +70,10 @@ Your SQLiteStudio interface should look like this:
 	(‘Linguistics’);
 	```
 
-4. Add another field for __*program level*__ to the existing table 
+	Click on "Data" to view the data that you just inserted into the "programs" table.  
+	![Click "Data" to view "programs" table with new data](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/view_table.png)
+
+4. Add another field for "program_level" to the existing table 
 	```
 	--ADD ANOTHER FIELD TO THE PROGRAMS TABLE
 	ALTER TABLE programs
