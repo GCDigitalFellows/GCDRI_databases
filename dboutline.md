@@ -21,13 +21,13 @@ The database holds your data, but you need a client to see and interact with it.
 
 ###Building a database  
 1. Create a database file using the SQLite GUI.  
-![Create a database using SQLite GUI](GCDRI_databases/images/add_db.png)  
+![Create a database using SQLite GUI](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/add_db.png)  
 
 2. Give your database a name and make sure to save it to a directory that is outside of the SQLiteStudio download folder.  
-![Name your database file and save it outside of the SQLiteStudio download folder](GCDRI_databases/images/db_info.png)  
+![Name your database file and save it outside of the SQLiteStudio download folder](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/db_info.png)  
 
 3. Connect to the database you just created.    
-![Connect to the database you just created](GCDRI_databases/images/conn_db.png)  
+![Connect to the database you just created](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/conn_db.png)  
 
 ###Building tables
 The next step is to create tables to hold your data. From here onwards, we are going to execute database queries using the SQL editor, so you can get used to SQL syntax.  
