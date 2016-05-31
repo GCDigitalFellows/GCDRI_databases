@@ -3,7 +3,7 @@
 ## Session 1 
 ###Objectives:  
 1. Develop a conceptual understanding of databases and SQL  
-2. Learn basic SQL syntax for building a database  
+2. Learn basic SQL syntax for building and querying a database  
 
 ####*What is a database?*
 
@@ -145,6 +145,64 @@ The syntax for creating a table in SQLite is:
 	('Sarah', 1);
 	```  
 
+###Querying your database  
+
+Now that we have a decent looking database, we can execute some queries to manipulate our data.  
+
+Each query is made up of the same basic set of clauses:  
+- The `SELECT` clause indicates the fields that you want to return.  
+- The `FROM` clause indicates the table that the fields belong to.  
+- The `WHERE` clause filters the results of the query.  
+
+Together, the `SELECT` clause essentially creates a new table based on the criteria specified in the `FROM` and `WHERE` clauses.  
+
+1. This query returns all of the records (i.e., rows) in the "students" table:  
+	```
+	--SHOW ALL FIELDS FOR EACH RECORD IN THE TABLE STUDENTS
+	SELECT *   --'*' is a wildcard in SQL
+	FROM students;
+	```  
+
+2. This query returns only the values in the "student" field for all records in the "students" table:  
+	```
+	--SHOW THE VALUE FOR ONLY THE STUDENT FIELD FOR ALL RECORDS IN THE
+	--TABLE STUDENTS
+	SELECT student
+	FROM students;
+	```  
+
+3. This query returns two fields from the "students" table:  
+	```
+	--SHOW THE VALUES FOR THE STUDENT AND ID FIELDS FOR ALL THE RECORDS IN
+	--THE TABLE STUDENTS
+	SELECT student, id
+	FROM students;
+	```  
+
+4. This filters the records that are returned by their value in the "id" field:  
+	```
+	--SHOW ALL FIELDS FOR EACH RECORD IN THE TABLE STUDENTS WHERE THE VALUE OF THE
+	--ID FIELD IS EQUAL TO "3"
+	SELECT *
+	FROM students
+	WHERE id = '3';
+	```  
+
+5. Each of the queries up to now is just returning data from one table in the database. This query combines our "students" and "programs" tables using a `JOIN` clause:  
+	```
+	--SHOW ALL THE RECORDS FOR STUDENT WITH THE INFORMATION ABOUT THEIR
+	--RESPECTIVE PROGRAMS
+	SELECT *
+	FROM students INNER JOIN programs
+	ON students.id_program = programs.id;
+	```  
+
+	This query should return what you see below:  
+
+	![Result of a query joining the "students" and "programs" tables](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/join_table.png)  
+
+	This final query demonstrates the power of relational databases by using the foreign key in the "students" table to coordinating data with the "programs" table.  
+
 
 ###**************Let's take a 15 minute break!**************
 
@@ -152,8 +210,8 @@ The syntax for creating a table in SQLite is:
 
 ## Session 2
 ###Objectives: 
-1. Practice querying your database  
-2. Learn how to import existing data into a db table  
+1. Practice more complex queries  
+2. Learn how to import existing data into a database table  
 3. Integrate SQL with Python
 
 
