@@ -211,12 +211,47 @@ Together, the `SELECT` clause essentially creates a new table based on the crite
 ## Session 2
 ###Objectives: 
 1. Practice more complex queries  
-2. Learn how to import existing data into a database table  
-3. Integrate SQL with Python
+2. Learn how to import existing data into a database table 
+3. Integrate SQL with Python (python 3)
 
 
 ###Import data into table (15 min)
+1. import table  (csv or JSON?)
+2. import db  (Chinook?)
+
 ###General manipulation (30 min)
-###Excursus: Databases vs. Excel (15 min)
+1. 
+
+###Excursus: Databases vs. Excel (15 min)  
+1. volume, volume, volume!  
+
 ###SQL + Python = Awesome (15 min)
-  1. set up for Web Frameworks session
+You can embed SQL syntax in a Python script using the sqlite3 library  
+
+Let's write a short Python script that will let the user query the database from the terminal.  
+
+1. First write the Python part:  
+	```
+	# ask the user what kind of data they want
+
+	# ask the user for key words
+
+	# return records from the database that contain the keywords in a list
+	```  
+
+2. Next import the sqlite3 library, connect to the database, and create a cursor object  
+	```
+	# import the sqlite3 library
+	import sqlite3
+
+	# connect to the database
+	conn = sqlite3.connect('testdb.db')
+
+	# create a cursor object  
+	c = conn.cursor()
+	```  
+
+3. 
+	# use the '.execute' method of the cursor object to execute SQL queries  
+	# 
+
