@@ -67,6 +67,19 @@
 10. GROUP BY
 
 ##Data types
+1. DATE  
+2. TIME  
+3. VARCHAR  
+4. INTEGER  
+5. XML 
+
+##Constraints  
+    - PRIMARY KEY  
+    - FOREIGN KEY  
+    - UNIQUE  
+    - DEFAULT  
+    - AUTOINCREMENT  
+    - NOT NULL
 
 ##Comparison operators  
 1. `=`  

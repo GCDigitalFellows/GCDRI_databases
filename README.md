@@ -1,4 +1,4 @@
-# GCDRI_databases
+#Databases - June 2016 GCDRI
 
 This is the repo for all materials for the databases workshops.
 
@@ -10,18 +10,32 @@ This is the repo for all materials for the databases workshops.
 [SQLiteStudio](http://sqlitestudio.pl/)  
 [sqlite3](https://docs.python.org/2/library/sqlite3.html) Python library
 
-## Session 1 Outline (75 min, SQLiteStudio)
-1. Concepts of databases (10 min)
-2. Build table (65 min)
+## Part 1
+###Objectives:  
+ - Develop a conceptual understanding of databases and SQL  
+ - Learn basic SQL syntax for building and querying a database  
+
+1. [Introduction to databases]  
+2. [Building a database]  
+3. [Building tables]  
+4. [Inserting data into tables]  
+5. [Updating table fields]  
+6. [Foreign keys!]  
+7. [Common database queries]  
+8. [INNER JOIN!]  
 
 ### Break (15 min)
 
-## Session 2 Outline (75 min, terminal)
-3. Import data into table (15 min)
-4. General manipulation (30 min)
-5. Databases vs. Excel (15 min)
-6. SQL + Python (15 min)
-  1. set up for Web Frameworks session
+## Part 2
+###Objectives: 
+ - Learn how to import existing data into a database table  
+ - Practice more complex queries  
+ - Integrate SQL with Python  
+
+9. [Importing a csv file into a SQL table]  
+10. [More complex queries]  
+11. [Databases vs. Excel]  
+12. [SQL + Python = Awesome!]  
 
 ##Extra Resources  
 1. This tutorial [Fun Times with SQLite!](https://digitalfellows.commons.gc.cuny.edu/2016/04/08/fun-times-with-sqlite-or-a-beginners-tutorial-to-data-management-and-databases-with-sql/) follows the first part of this session  
