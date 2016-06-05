@@ -1,4 +1,8 @@
-6. Create a table called "students" with a field for: (1) a primary key, (2) student name, and (3) a foreign key that will reference the "programs" table  
+#Relating tables with foreign keys  
+
+At this point, we're going to create a second table called "students" to illustrate the relational nature of relational databases. We use the same syntax that we used to create the "programs" table, but with one extra element: *a foreign key*.  
+
+1. Create a table called "students" with a field for: (1) a primary key, (2) student name, and (3) a foreign key that will reference the "programs" table  
 	```
 	--CREATE A TABLE FOR STUDENTS (PAY ATTENTION TO THE FOREIGN KEY!)
 	CREATE TABLE students
@@ -18,7 +22,9 @@
 
 	All records in the "students" table must point to a valid primary key in the "programs" table.  
 
-7. The last step is to add some data to the new "students" table
+
+
+2. The last step is to add some data to the new "students" table
 	```
 	--INSERT SOME DATA INTO THE STUDENTS TABLE
 	--REMEMBER THAT THE PRIMARY KEY WILL AUTOINCREMENT
@@ -28,3 +34,8 @@
 	('Cecilia', 2),
 	('Nico', 2),
 	('Sarah', 1);
+	```  
+	
+We will make use of the foreign key in the next step!  
+
+[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/4-updatefield.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/6-commonqueries.md)  

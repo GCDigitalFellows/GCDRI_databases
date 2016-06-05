@@ -1,4 +1,7 @@
-###Building a database  
+#Building a database  
+
+To get started, we're going to use the SQLiteStudio GUI to create the database file we will be using during this session (and web frameworks):  
+
 1. Create a database file using the SQLite GUI.  
 
 	![Create a database using SQLite GUI](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/add_db.png)  
@@ -9,4 +12,6 @@
 
 3. Connect to the database you just created.    
 
-	![Connect to the database you just created](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/conn_db.png) 
+	![Connect to the database you just created](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/conn_db.png)  
+
+[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/0-dbintro.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/2-buildtable.md)  

@@ -15,14 +15,14 @@ This is the repo for all materials for the databases workshops.
  - Develop a conceptual understanding of databases and SQL  
  - Learn basic SQL syntax for building and querying a database  
 
-1. [Introduction to databases]  
-2. [Building a database]  
-3. [Building tables]  
-4. [Inserting data into tables]  
-5. [Updating table fields]  
-6. [Foreign keys!]  
-7. [Common database queries]  
-8. [INNER JOIN!]  
+0. [Introduction to databases](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/0-dbintro.md)  
+1. [Building a database](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/1-builddb.md)  
+2. [Building tables](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/2-buildtable.md)  
+3. [Inserting data into tables](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/3-insertdata.md)  
+4. [Updating table fields](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/4-updatefield.md)  
+5. [Foreign keys!](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/5-foreignkeys.md)  
+6. [Common database queries](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/6-commonqueries.md)  
+7. [INNER JOIN!](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/7-innerjoin.md)  
 
 ### Break (15 min)
 
@@ -32,10 +32,10 @@ This is the repo for all materials for the databases workshops.
  - Practice more complex queries  
  - Integrate SQL with Python  
 
-9. [Importing a csv file into a SQL table]  
-10. [More complex queries]  
-11. [Databases vs. Excel]  
-12. [SQL + Python = Awesome!]  
+8. [Importing a csv file into a SQL table](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/8-importcsv.md)    
+9. [More complex queries](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/.md)    
+10. [Databases vs. Excel](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/.md)    
+11. [SQL + Python = Awesome!](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/.md)    
 
 ##Extra Resources  
 1. This tutorial [Fun Times with SQLite!](https://digitalfellows.commons.gc.cuny.edu/2016/04/08/fun-times-with-sqlite-or-a-beginners-tutorial-to-data-management-and-databases-with-sql/) follows the first part of this session  

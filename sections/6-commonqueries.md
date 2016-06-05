@@ -1,4 +1,4 @@
-###Querying your database  
+#Querying your database  
 
 Now that we have a decent looking database, we can execute some queries to manipulate our data.  
 
@@ -32,6 +32,9 @@ Together, the `SELECT` clause essentially creates a new table based on the crite
 	FROM students;
 	```  
 
+	###Challenge:  
+	* - Write a query that returns 'program' and 'program level' for each record in the 'programs' table *  
+
 4. This filters the records by their value in the "id" field:  
 	```
 	--SHOW ALL FIELDS FOR EACH RECORD IN THE TABLE STUDENTS WHERE THE VALUE OF THE
@@ -40,3 +43,9 @@ Together, the `SELECT` clause essentially creates a new table based on the crite
 	FROM students
 	WHERE id = '3';
 	```  
+
+	###Challenge:  
+	* - Write a query that returns entire records for only Ph.D programs in the 'programs' table *  
+
+	
+[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/5-foreignkeys.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/7-innerjoin.md)
