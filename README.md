@@ -2,9 +2,9 @@
 
 This is the repo for all materials for the databases workshops.
 
-[dbcheatsheet.md](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/dbcheatsheet.md) contains SQL tips and commands  
+Open [dbcheatsheet.md](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/dbcheatsheet.md) contains SQL tips and commands.  
 
-click "Introduction to databases" below to get started!  
+Click on "Introduction to databases" below to get started!  
 
 ## Requirements:
 [SQLite](https://www.sqlite.org/)  
@@ -12,7 +12,6 @@ click "Introduction to databases" below to get started!
 [sqlite3](https://docs.python.org/2/library/sqlite3.html) Python library
 
 ## Part 1
-###Objectives:  
 Develop a conceptual understanding of databases and SQL  
 Learn basic SQL syntax for building and querying a database  
 
@@ -28,7 +27,6 @@ Learn basic SQL syntax for building and querying a database
 ### Break (15 min)
 
 ## Part 2
-###Objectives: 
 Learn how to import existing data into a database table  
 Practice more complex queries  
 Integrate SQL with Python  
