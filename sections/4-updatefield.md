@@ -1,6 +1,10 @@
-#Updating fields
+[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/3-insertdata.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/5-foreignkeys.md)  
 
-1. Add another field for "program_level" to the existing table  
+#Updating fields  
+
+You can alter tables after they've been created. The SQL syntax below adds another field to the existing table and then populates that field with data.    
+
+1. Add another field for "program_level" to the existing table:    
 	```
 	--ADD ANOTHER FIELD TO THE PROGRAMS TABLE
 	ALTER TABLE programs

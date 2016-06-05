@@ -2,8 +2,9 @@
 
 This is the repo for all materials for the databases workshops.
 
-1. [dboutline.md](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/dboutline.md) contains the activites for this session
-2. [dbcheatsheet.md](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/dbcheatsheet.md) contains SQL tips and commands  
+[dbcheatsheet.md](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/dbcheatsheet.md) contains SQL tips and commands  
+
+click "Introduction to databases" below to get started!  
 
 ## Requirements:
 [SQLite](https://www.sqlite.org/)  
@@ -12,8 +13,8 @@ This is the repo for all materials for the databases workshops.
 
 ## Part 1
 ###Objectives:  
- - Develop a conceptual understanding of databases and SQL  
- - Learn basic SQL syntax for building and querying a database  
+Develop a conceptual understanding of databases and SQL  
+Learn basic SQL syntax for building and querying a database  
 
 0. [Introduction to databases](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/0-dbintro.md)  
 1. [Building a database](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/1-builddb.md)  
@@ -28,9 +29,9 @@ This is the repo for all materials for the databases workshops.
 
 ## Part 2
 ###Objectives: 
- - Learn how to import existing data into a database table  
- - Practice more complex queries  
- - Integrate SQL with Python  
+Learn how to import existing data into a database table  
+Practice more complex queries  
+Integrate SQL with Python  
 
 8. [Importing a csv file into a SQL table](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/8-importcsv.md)    
 9. [More complex queries](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/.md)    

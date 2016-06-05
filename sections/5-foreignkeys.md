@@ -1,6 +1,8 @@
+[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/4-updatefield.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/6-commonqueries.md)  
+
 #Relating tables with foreign keys  
 
-At this point, we're going to create a second table called "students" to illustrate the relational nature of relational databases. We use the same syntax that we used to create the "programs" table, but with one extra element: *a foreign key*.  
+At this point, we're going to create a second table called "students" to illustrate the relational nature of relational databases. We use the same syntax that we used to create the "programs" table, but with one extra element: **a foreign key**.  
 
 1. Create a table called "students" with a field for: (1) a primary key, (2) student name, and (3) a foreign key that will reference the "programs" table  
 	```
@@ -17,6 +19,8 @@ At this point, we're going to create a second table called "students" to illustr
 	The structure of your "students" table should look like this:  
 
 	![Structure of the new "students" table](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/student_tab_struc.png)  
+
+	
 
 	The foreign key points to a primary key in another table, in this case the "programs" table. This relationship is specified with the clause `FOREIGN KEY (id_program) REFERENCES programs(id)`, which links the "id_program" field in the "students" table to the "id" field in the "programs" table.  
 
@@ -36,6 +40,6 @@ At this point, we're going to create a second table called "students" to illustr
 	('Sarah', 1);
 	```  
 	
-We will make use of the foreign key in the next step!  
+###We will make use of the foreign key in the next step!  
 
 [<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/4-updatefield.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/6-commonqueries.md)  

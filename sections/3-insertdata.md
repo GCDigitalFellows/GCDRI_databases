@@ -1,6 +1,13 @@
+[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/2-buildtable.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/4-updatefield.md)  
+
 #Inserting data into a SQL table
 
-1. Insert some data into the table we just created  
+Now that we have a table structure, we need to insert some data.  
+
+1. Insert some data into the table we just created using this syntax:  
+
+	**Remember:** Highlight this code before clicking the triangle to execute!  
+
 	```
 	INSERT INTO programs(program) VALUES
 	(‘Anthropology’),

@@ -1,9 +1,11 @@
+[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/1-builddb.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/3-insertdata.md) 
+
 #Building tables
 The next step is to create tables to hold your data. From here onwards, we are going to execute database queries using the SQL editor to practice SQL syntax.  
 
 The syntax for creating a table in SQLite is:
 
-`CREATE TABLE [table_name] ( [field_name] [data type] [constraints] )`  
+`CREATE TABLE *table_name* ( *field_name* *data type* *constraints* )`  
 
 - The [data type](https://www.sqlite.org/datatype3.html) will affect the behavior of the data in that field. For example, whether the data itself is treated as text or a number.  
 
@@ -28,6 +30,9 @@ The syntax for creating a table in SQLite is:
 	);
 	```
 
+	Highlight the code you just entered in the SQL editor and click the blue triangle to execute it.  
+
+	
 	![Creating "programs" table](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/create_table.png)  
 	
 [<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/1-builddb.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/3-insertdata.md)  

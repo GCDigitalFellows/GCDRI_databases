@@ -1,3 +1,5 @@
+[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/0-dbintro.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/2-buildtable.md)  
+
 #Building a database  
 
 To get started, we're going to use the SQLiteStudio GUI to create the database file we will be using during this session (and web frameworks):  
