@@ -66,3 +66,19 @@
 9. LAST()
 10. GROUP BY
 
+##Data types
+
+##Comparison operators  
+1. `=`  
+2. `==`  
+3. `<`  
+4. `<=`  
+5. `>`  
+6. `>=`  
+7. `!=`  
+8. `IN`  
+9. `NOT IN`  
+10. `BETWEEN`  
+11. `IS`  
+12. `IS NOT`  
+
