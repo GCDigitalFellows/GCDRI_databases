@@ -24,13 +24,13 @@ This is the repo for all materials for the databases workshops.
 6. [Common database queries](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/6-commonqueries.md)  
 7. [INNER JOIN!](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/7-innerjoin.md)  
 
-	### Break (15 min)
+### Break (15 min)
 
-	## Part 2
-	###Objectives: 
-	 - Learn how to import existing data into a database table  
-	 - Practice more complex queries  
-	 - Integrate SQL with Python  
+## Part 2
+###Objectives: 
+ - Learn how to import existing data into a database table  
+ - Practice more complex queries  
+ - Integrate SQL with Python  
 
 8. [Importing a csv file into a SQL table](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/8-importcsv.md)    
 9. [More complex queries](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/.md)    
