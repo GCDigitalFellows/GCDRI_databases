@@ -2,7 +2,7 @@
 
 This is the repo for all materials for the databases workshops.
 
-Open [dbcheatsheet.md](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/dbcheatsheet.md) contains SQL tips and commands.  
+Open [dbcheatsheet.md](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/dbcheatsheet.md) to see SQL tips and syntax.  
 
 Click on "Introduction to databases" below to get started!  
 
