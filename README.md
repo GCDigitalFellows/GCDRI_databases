@@ -39,3 +39,5 @@ Integrate SQL with Python
 ##Extra Resources  
 1. This tutorial [Fun Times with SQLite!](https://digitalfellows.commons.gc.cuny.edu/2016/04/08/fun-times-with-sqlite-or-a-beginners-tutorial-to-data-management-and-databases-with-sql/) follows the first part of this session  
 2. For designing your database, check out this [SQL designer](http://ondras.zarovi.cz/sql/demo/).
+
+3. The modified NYPL items csv file can be cloned from this repo: https://github.com/GCDigitalFellows/nypl_data.git  
