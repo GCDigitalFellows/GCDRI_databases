@@ -12,8 +12,6 @@ Click on "Introduction to databases" below to get started!
 [sqlite3](https://docs.python.org/2/library/sqlite3.html) Python library
 
 ## Part 1
-Develop a conceptual understanding of databases and SQL  
-Learn basic SQL syntax for building and querying a database  
 
 0. [Introduction to databases](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/0-dbintro.md)  
 1. [Building a database](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/1-builddb.md)  
@@ -21,23 +19,21 @@ Learn basic SQL syntax for building and querying a database
 3. [Inserting data into tables](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/3-insertdata.md)  
 4. [Updating table fields](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/4-updatefield.md)  
 5. [Foreign keys!](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/5-foreignkeys.md)  
-6. [Common database queries](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/6-commonqueries.md)  
-7. [INNER JOIN!](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/7-innerjoin.md)  
+6. [General database queries](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/6-commonqueries.md)  
 
 ### Break (15 min)
 
 ## Part 2
-Learn how to import existing data into a database table  
-Practice more complex queries  
-Integrate SQL with Python  
 
-8. [Importing a csv file into a SQL table](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/8-importcsv.md)    
-9. [More complex queries](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/.md)    
-10. [Databases vs. Excel](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/.md)    
-11. [SQL + Python = Awesome!](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/.md)    
+7. [INNER JOIN!](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/7-innerjoin.md) 
+8. [Importing a csv file into a SQL table](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/8-importcsv.md)     
+9. [Databases vs. Excel](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/.md)    
+10. [SQL + Python = Awesome!](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/.md)    
+11. [More complex queries](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/.md)   
 
 ##Extra Resources  
 1. This tutorial [Fun Times with SQLite!](https://digitalfellows.commons.gc.cuny.edu/2016/04/08/fun-times-with-sqlite-or-a-beginners-tutorial-to-data-management-and-databases-with-sql/) follows the first part of this session  
+
 2. For designing your database, check out this [SQL designer](http://ondras.zarovi.cz/sql/demo/).
 
 3. The modified NYPL items csv file can be cloned from this repo: https://github.com/GCDigitalFellows/nypl_data.git  
