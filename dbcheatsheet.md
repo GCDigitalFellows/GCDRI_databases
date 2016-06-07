@@ -13,9 +13,9 @@
 ##C.R.U.D.
 
 ###Create
-1. <pre>`CREATE DATABASE <i>*db_name*</i>`</pre> - creates a database
+1. `CREATE DATABASE db_name` - creates a database
 
-2. `CREATE TABLE *table_name* (*field_name DATA_TYPE CONSTRAINTS*)` - creates a table in the database
+2. `CREATE TABLE table_name (field_name DATA_TYPE CONSTRAINTS)` - creates a table in the database
   1. Data types
     1. `DATE`
     2. `TIME`
