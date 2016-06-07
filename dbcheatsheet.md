@@ -43,18 +43,16 @@
 ####This is the basic format for querying a database
 
 `SELECT field1, field2` - select fields to return (or `*` to return entire record)
+
 `FROM table_name` - select the table
+
 `INNER JOIN table1, table2` - specify which tables to pull data from
+
 `ON table1.field_a = table2.field_b` - specify which records to return from the join operation
     * `JOIN` + `ON` creates a temporary table that includes data from *table1* and *table2* for only those records where the value in *table1.field_a* is equal to the value in *table2.field_b*
+
 `WHERE table.field_a = "value_x"` - only returns records whose value for *field_a* is equal to *value_x* (`WHERE` acts like filter)
 
-
-
-`FROM table_name` - select table to return fields from
-`INNER JOIN table1, table2` - specify which tables to pull data from 
-`ON table1.field = table2.field` - specify which records to return from the join operation (`JOIN` + `ON` creates a temporary table that includes data from *table1* and *table2* for only those records where *table1.field* = *table2.field*)
-`WHERE table.field_a = "value_x"` - only return records whose value for *field_a* is equal to *value_x* (`WHERE` acts like a filter)
     1. `WHERE table.field_a IN ("value_x", "value_y", "value_z")` - only return records whose value for *field_a* is one of values in the parentheses (`NOT IN` - does the opposite)
 
     2. `WHERE table.field_a = value_x AND table.field_b = value_y` - only returns records where both conditions are met
