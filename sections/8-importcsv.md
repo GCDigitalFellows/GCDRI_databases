@@ -1,7 +1,27 @@
-#Import data into table (15 min)  
+#Import data into table
 1. Create a table with a field for each column in the csv file to import  
-	```sqlite
-	CREATE TABLE nypl_items (  
+	```
+	CREATE TABLE nypl_items (
+		id INTEGER PRIMARY KEY,
+		title VARCHAR,
+		contributor VARCHAR,
+		date VARCHAR,
+		language VARCHAR,
+		description VARCHAR,
+		note VARCHAR,
+		subject VARCHAR,
+		resource VARCHAR,
+		genre VARCHAR,
+		publisher VARCHAR,
+		place VARCHAR,
+		url VARCHAR
+	);
+	```
+	
+
+
+
+	(  
 		id INTEGER PRIMARY KEY,  
 		Title VARCHAR,  
 		Contributor VARCHAR,  
