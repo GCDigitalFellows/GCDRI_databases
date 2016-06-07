@@ -48,9 +48,7 @@
 
 `INNER JOIN table1, table2` - specify which tables to pull data from
 
-`ON table1.field_a = table2.field_b` - specify which records to return from the join operation
-
-    `JOIN` + `ON` creates a temporary table that includes data from *table1* and *table2* for only those records where the value in *table1.field_a* is equal to the value in *table2.field_b*
+`ON table1.field_a = table2.field_b` - specify which records to return from the join operation (`JOIN` + `ON` creates a temporary table that includes data from *table1* and *table2* for only those records where the value in *table1.field_a* is equal to the value in *table2.field_b*)
 
 `WHERE table.field_a = "value_x"` - only returns records whose value for *field_a* is equal to *value_x* (`WHERE` acts like filter)
 
