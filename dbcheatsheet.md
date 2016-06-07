@@ -49,27 +49,28 @@
 `INNER JOIN table1, table2` - specify which tables to pull data from
 
 `ON table1.field_a = table2.field_b` - specify which records to return from the join operation
-    * `JOIN` + `ON` creates a temporary table that includes data from *table1* and *table2* for only those records where the value in *table1.field_a* is equal to the value in *table2.field_b*
+
+    - `JOIN` + `ON` creates a temporary table that includes data from *table1* and *table2* for only those records where the value in *table1.field_a* is equal to the value in *table2.field_b*
 
 `WHERE table.field_a = "value_x"` - only returns records whose value for *field_a* is equal to *value_x* (`WHERE` acts like filter)
 
-    1. `WHERE table.field_a IN ("value_x", "value_y", "value_z")` - only return records whose value for *field_a* is one of values in the parentheses (`NOT IN` - does the opposite)
+1. `WHERE table.field_a IN ("value_x", "value_y", "value_z")` - only return records whose value for *field_a* is one of values in the parentheses (`NOT IN` - does the opposite)
 
-    2. `WHERE table.field_a = value_x AND table.field_b = value_y` - only returns records where both conditions are met
+2. `WHERE table.field_a = value_x AND table.field_b = value_y` - only returns records where both conditions are met
 
-    3. `... field_a = value_x OR field_b = value_y`
+3. `... field_a = value_x OR field_b = value_y`
 
-    4. `... field_a BETWEEN value_x AND value_y`
+4. `... field_a BETWEEN value_x AND value_y`
 
-    5. `... field_a LIKE "spa%"` - return only records whose value in field_a starts with "spa"
+5. `... field_a LIKE "spa%"` - return only records whose value in field_a starts with "spa"
 
-    6. `<`, `<=`, `>`, `>=`, `!=`  
+6. `<`, `<=`, `>`, `>=`, `!=`  
 
-    7. `BETWEEN`  
+7. `BETWEEN`  
 
-    8. `IS` - equal to a value (or empty for `IS NULL`)
+8. `IS` - equal to a value (or empty for `IS NULL`)
 
-    9. `IS NOT` - is not equal to a value (or is not empty for `IS NOT NULL`)
+9. `IS NOT` - is not equal to a value (or is not empty for `IS NOT NULL`)
 
 `ORDER field_a BY ASC/DESC` - format how results are displayed - arrange records returned by values in *field_a* according to ascending order (`DESC` for descending order)
 
