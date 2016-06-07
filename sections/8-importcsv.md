@@ -1,6 +1,6 @@
 #Import data into table (15 min)  
 1. Create a table with a field for each column in the csv file to import  
-	```SQL
+	```sqlite
 	CREATE TABLE nypl_items (  
 		id INTEGER PRIMARY KEY,  
 		Title VARCHAR,  
