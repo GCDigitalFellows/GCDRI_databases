@@ -34,83 +34,59 @@
     5. `AUTOINCREMENT`
     6. `NOT NULL`
 
-3. `INSERT INTO *table_name*(*field1, field2*) VALUES (*'value1'*, *'value2'*)` - insert data into a table for one record
+3. `INSERT INTO table_name(field1, field2) VALUES ('value1', 'value2')` - insert data into a table for one record
 
-4. `INSERT INTO *table_name*(*field1*) VALUES (*record1*), (*record2*), (*record3*)` - insert data into a table for multiple records
+4. `INSERT INTO table_name(field1) VALUES (record1), (record2), (record3)` - insert data into a table for multiple records
 
 
 ###Read
-1. `SELECT *field1, field2* FROM *table_name*` - select fields from a table
+####This is the basic format for querying a database
 
-2. `INNER JOIN *table1*, *table2* ON *table1.field = table2.field*` - create a new temporary table that includes data from table1 and table2 for only those records where table1.field = table2.field
+`SELECT field1, field2` - select fields to return (or `*` to return entire record) 
+`FROM table_name` - select table to return fields from
+`INNER JOIN table1, table2` - specify which tables to pull data from 
+`ON table1.field = table2.field` - specify which records to return from the join operation (`JOIN` + `ON` creates a temporary table that includes data from *table1* and *table2* for only those records where *table1.field* = *table2.field*)
+`WHERE table.field_a = "value_x"` - only return records whose value for *field_a* is equal to *value_x* (`WHERE` acts like a filter)
+    1. `WHERE table.field_a IN ("value_x", "value_y", "value_z")` - only return records whose value for *field_a* is one of values in the parentheses (`NOT IN` - does the opposite)
 
-3. `WHERE *table.field_a = "value_x"*` - only return records whose value for *field_a* is equal to *value_x*
+    2. `WHERE table.field_a = value_x AND table.field_b = value_y` - only returns records where both conditions are met
 
-4. `WHERE *table.field_a* IN ("value_x", "value_y", "value_z")` - only return records whose value for *field_a* is one of values in the parentheses 
-5. `AND`
-6. `BETWEEN`
-7. `LIKE` (%..%)
-8. `OR`
+    3. `... field_a = value_x OR field_b = value_y`
 
-5. ORDER BY ASC/DESC
-6. AS (alias for field name)
+    4. `... field_a BETWEEN value_x AND value_y`
 
-12. CONCAT
-13. LENGTH
-14. DISTINCT
-15. UPDATE/SET
-16. DELETE
-17. LIMIT
-18. BETWEEN
-19. IS (NOT) NULL
+    5. `... field_a LIKE "spa%"` - return only records whose value in field_a starts with "spa"
 
-##Functions
-1. AVG()
-2. COUNT()
-3. MAX()
-4. MIN()
-5. SUM()
-6. UCASE()
-7. LCASE()
-8. FIRST()
-9. LAST()
-10. GROUP BY
+    6. `<`, `<=`, `>`, `>=`, `!=`  
 
-##Data types
-1. DATE  
-2. TIME  
-3. VARCHAR  
-4. INTEGER  
-5. XML 
+    7. `BETWEEN`  
 
-##Constraints  
-    - PRIMARY KEY  
-    - FOREIGN KEY  
-    - UNIQUE  
-    - DEFAULT  
-    - AUTOINCREMENT  
-    - NOT NULL
+    8. `IS` - equal to a value (or empty for `IS NULL`)
 
-##Comparison operators  
-1. `=`  
-2. `==`  
-3. `<`  
-4. `<=`  
-5. `>`  
-6. `>=`  
-7. `!=`  
-8. `IN`  
-9. `NOT IN`  
-10. `BETWEEN`  
-11. `IS`  
-12. `IS NOT`  
+    9. `IS NOT` - is not equal to a value (or is not empty for `IS NOT NULL`)
 
-##Update
-1. `ALTER TABLE *table_name* RENAME TO *new_table_name*` - rename a table
+`ORDER field_a BY ASC/DESC` - format how results are displayed - arrange records returned by values in *field_a* according to ascending order (`DESC` for descending order)
 
-2. `ALTER TABLE *table_name* ADD COLUMN *new_field_name* *DATA_TYPE* *CONSTRAINTS*` - add a new field to a table (include data type and field constraints)
 
-##Delete
-1. DELETE
+####Misc.
+1. `SELECT DISTINCT field_a FROM table` - return only distince values for *field_a*
 
-2. `DROP TABLE *table_name*` - delete a whole table
+2. `SELECT COUNT(*) FROM table` - return the number of records in the table
+
+3. `SELECT * FROM table LIMIT 5` - return only the first 5 records from the table
+
+
+###Update
+1. `ALTER TABLE table_name RENAME TO new_table_name` - rename a table
+
+2. `ALTER TABLE table_name ADD COLUMN new_field_name DATA_TYPE CONSTRAINTS` - add a new field to a table (include data type and field constraints)
+
+3. `UPDATE table SET field_a = value_x WHERE field_b = value_y` - add new data to one or more fields in a table
+
+
+###Delete
+1. `DELETE FROM table WHERE field = value` - delete data from a table
+
+2. `DROP TABLE table_name` - delete a whole table
+
+
