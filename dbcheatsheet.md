@@ -74,7 +74,7 @@
 
 
 ####Misc.
-1. `SELECT DISTINCT field_a FROM table` - return only distince values for *field_a*
+1. `SELECT DISTINCT field_a FROM table` - return only distinct values for *field_a*
 
 2. `SELECT COUNT(*) FROM table` - return the number of records in the table
 
