@@ -9,7 +9,7 @@
 import sqlite3
 
 # connect to the database
-conn = sqlite3.connect('/Users/ianphillips/Dropbox/DigitalFellows/GCDRI-db/nypldb.db')
+conn = sqlite3.connect('nypldb.db')
 
 # create a cursor object  
 c = conn.cursor()
