@@ -40,8 +40,10 @@ Practice executing these queries and see what they return.
 
 
 	####Solution!
+	```
 	SELECT program_name, program_level
 	FROM programs;
+	```
 
 4. In this query, `WHERE` filters the records by their value in the "id" field:  
 	```
@@ -56,9 +58,11 @@ Practice executing these queries and see what they return.
 
 
 	####Solution!
+	```
 	SELECT *
 	FROM programs  
 	WHERE program_level = "Ph.D.";
+	```
 
 	
 [<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/5-foreignkeys.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/7-innerjoin.md)

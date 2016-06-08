@@ -32,7 +32,8 @@ At this point, we're going to create a second table called "students" to illustr
 
 	- **Remember:** 
 		- The primary key will autopopulate.
-		- The foreign keys must be entered manually - YOU decide which program to associate with each student.
+		- The foreign keys must be entered manually - YOU decide which program to associate with each student.  
+		
 
 	```
 	INSERT INTO students(student, id_program) VALUES

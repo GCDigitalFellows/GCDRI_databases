@@ -29,7 +29,7 @@ You can alter tables after they've been created. The SQL syntax below adds anoth
 	```  
 
 	####Challenge: Update the "program_level" field for "Biology" and "Anthropology".
-	_**HINT:** You can do this with one statement using `IN`_
+	_**HINT:** You can do this with one statement using_ `IN`
 
 
 	####Solution:
