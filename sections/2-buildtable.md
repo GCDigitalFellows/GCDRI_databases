@@ -25,7 +25,7 @@ The next step is to create tables to hold your data. From here onwards, we are g
 	
 	```
 	CREATE TABLE programs  (  
-		id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,  
+		id INTEGER PRIMARY KEY,  
 		program_name VARCHAR  
 	);
 	```
