@@ -24,10 +24,9 @@ The next step is to create tables to hold your data. From here onwards, we are g
 	- The [constraints](http://www.tutorialspoint.com/sqlite/sqlite_constraints.htm) will affect the behavior of that field. For example, a field with a `NOT NULL` constraint means that each record must have some data in this field.   
 	
 	```
-	CREATE TABLE programs  
-	(  
-	id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,  
-	program_name VARCHAR  
+	CREATE TABLE programs  (  
+		id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,  
+		program_name VARCHAR  
 	);
 	```
 
