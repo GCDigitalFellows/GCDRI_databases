@@ -38,7 +38,7 @@ for i in record_list:
 
 1. Open the command line, `cd` to the directory containing your "nypl_search.py" file and "nypldb.db" database  
 
-2. Type `python nypl_search.py` and hit Enter  
+2. Type `python3 nypl_search.py` and hit Enter  
 
 
 [<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/10-pyplussql-pseudo.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/12-youdidit.md)
