@@ -27,9 +27,9 @@ Click on "Introduction to databases" below to get started!
 ## Part 2
 
 8. [Importing a csv file into a SQL table](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/8-importcsv.md)     
-9. [Databases vs. Excel](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/.md)    
-10. [SQL + Python = Awesome!](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/.md)    
-11. [More complex queries](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/.md)   
+9. [Databases vs. Excel](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/9-excel_v_db.md)    
+10. [SQL + Python = Awesome!](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/10-pyplussql-pseudo.md)    
+11. More complex queries   
 
 ##Extra Resources  
 1. This tutorial [Fun Times with SQLite!](https://digitalfellows.commons.gc.cuny.edu/2016/04/08/fun-times-with-sqlite-or-a-beginners-tutorial-to-data-management-and-databases-with-sql/) follows the first part of this session  
