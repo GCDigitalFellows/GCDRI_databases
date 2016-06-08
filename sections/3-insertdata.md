@@ -6,7 +6,7 @@ Now that we have a table structure, we need to insert some data.
 
 1. Insert "Anthropology", "Biology", and "Linguistics" into the table we just created. 
 
-	**Remember:** 
+	**Remember:**  
 		- Highlight this code before clicking the triangle to execute!  
 		- Comment your code with `--`
 
