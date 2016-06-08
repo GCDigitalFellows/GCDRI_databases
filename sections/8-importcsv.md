@@ -1,5 +1,6 @@
 #Import data into table
-1. Create a table with a field for each column in the csv file to import  
+1. Create a table with a field for each column in the csv file that we want to import
+
 	```
 	CREATE TABLE nypl_items (
 		id INTEGER PRIMARY KEY,
@@ -19,7 +20,9 @@
 	```
 
 
-2. Double click on the table in the databases window and click on the import icon  
+2. Double click on the table "nypl_items" in the databases window and click on the import icon  
+
+	![Importing a csv file to a new table](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/csv_import.png)
 
 
 3. Follow import instructions  

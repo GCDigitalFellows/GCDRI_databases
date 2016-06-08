@@ -6,13 +6,11 @@ At this point, we're going to create a second table called "students" to illustr
 
 1. Create a table called "students" with a field for: (1) a primary key, (2) student name, and (3) a foreign key that will reference the "programs" table  
 	```
-	--CREATE A TABLE FOR STUDENTS (PAY ATTENTION TO THE FOREIGN KEY!)
-	CREATE TABLE students
-	(
-	id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
-	student VARCHAR(255),
-	id_program INTEGER,
-	FOREIGN KEY (id_program) REFERENCES programs(id)
+	CREATE TABLE students (
+    	id INTEGER PRIMARY KEY,
+    	student VARCHAR,
+    	id_program INTEGER,
+    	FOREIGN KEY (id_program) REFERENCES programs(id) -- this establishes the reference!
 	);
 	```  
 
@@ -28,11 +26,15 @@ At this point, we're going to create a second table called "students" to illustr
 
 
 
-2. The last step is to add some data to the new "students" table
+2. The last step is to add some data to the new "students" table. 
+
+	*Try this on your own before looking below.*
+
+	- **Remember:** 
+		- The primary key will autopopulate.
+		- The foreign keys must be entered manually - YOU decide which program to associate with each student.
+
 	```
-	--INSERT SOME DATA INTO THE STUDENTS TABLE
-	--REMEMBER THAT THE PRIMARY KEY WILL AUTOINCREMENT
-	--FOREIGN KEYS MUST BE ENTERED MANUALLY
 	INSERT INTO students(student, id_program) VALUES
 	('Josefina', 3),
 	('Cecilia', 2),
@@ -40,6 +42,6 @@ At this point, we're going to create a second table called "students" to illustr
 	('Sarah', 1);
 	```  
 	
-###We will make use of the foreign key in the next step!  
+	_**We will make use of the foreign key in the next step!**_  
 
 [<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/4-updatefield.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/6-commonqueries.md)  

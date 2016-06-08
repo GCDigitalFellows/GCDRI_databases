@@ -9,7 +9,7 @@ Each query is made up of the same basic set of clauses:
 - The `FROM` clause indicates the table that the fields belong to.  
 - The `WHERE` clause filters the results of the query.  
 
-Together, these clauses essentially create a new table based on the criteria specified in each one.  
+Together, these clauses create a new temporary table based on the criteria specified in each one.  
 
 Practice executing these queries and see what they return.  
 
@@ -36,8 +36,12 @@ Practice executing these queries and see what they return.
 	FROM students;
 	```  
 
-	###Challenge #1:  
-	####Write a query that returns 'program' and 'program level' for each record in the 'programs' table.  
+	####Challenge #1: Write a query that returns "program_name" and "program_level" for each record in the "programs" table.  
+
+
+	####Solution!
+	SELECT program_name, program_level
+	FROM programs;
 
 4. In this query, `WHERE` filters the records by their value in the "id" field:  
 	```
@@ -48,8 +52,13 @@ Practice executing these queries and see what they return.
 	WHERE id = '3';
 	```  
 
-	###Challenge #2:  
-	####Write a query that returns entire records for only Ph.D programs in the 'programs' table.    
+	####Challenge #2: Write a query that returns entire records for _**only**_ Ph.D programs in the 'programs' table.  
+
+
+	####Solution!
+	SELECT *
+	FROM programs  
+	WHERE program_level = "Ph.D.";
 
 	
 [<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/5-foreignkeys.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/7-innerjoin.md)

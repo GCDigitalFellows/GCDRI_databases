@@ -7,6 +7,7 @@ Each of the queries up to now has just returned data from a single table in the 
 ```
 --SHOW ALL THE RECORDS FOR STUDENT WITH THE INFORMATION ABOUT THEIR
 --RESPECTIVE PROGRAMS
+
 SELECT *
 FROM students INNER JOIN programs
 ON students.id_program = programs.id;
@@ -18,7 +19,12 @@ This query should return what you see below:
 
 This query demonstrates the power of relational databases by using the foreign key in the "students" table to coordinating data with the "programs" table.  
 
-###Challenge:  
-####Write a query that returns only the name of each student and their respective program level.  
+####Challenge: Write a query that returns only the name of each student and their respective program level.  
+
+
+####Solution!
+SELECT student, program_level
+FROM students INNER JOIN programs
+ON students.id_program = programs.id;
 	
 [<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/6-commonqueries.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/breaktime.md)
