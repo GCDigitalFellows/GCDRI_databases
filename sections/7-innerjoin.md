@@ -23,8 +23,10 @@ This query demonstrates the power of relational databases by using the foreign k
 
 
 ####Solution!
+```
 SELECT student, program_level
 FROM students INNER JOIN programs
 ON students.id_program = programs.id;
+```
 	
 [<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/6-commonqueries.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/breaktime.md)
