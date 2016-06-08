@@ -20,12 +20,12 @@ Click on "Introduction to databases" below to get started!
 4. [Updating table fields](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/4-updatefield.md)  
 5. [Foreign keys!](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/5-foreignkeys.md)  
 6. [General database queries](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/6-commonqueries.md)  
+7. [INNER JOIN!](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/7-innerjoin.md)  
 
 ### Break (15 min)
 
 ## Part 2
 
-7. [INNER JOIN!](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/7-innerjoin.md) 
 8. [Importing a csv file into a SQL table](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/8-importcsv.md)     
 9. [Databases vs. Excel](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/.md)    
 10. [SQL + Python = Awesome!](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/.md)    
