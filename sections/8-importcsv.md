@@ -1,3 +1,5 @@
+[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/7-innerjoin.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/9-excel_v_db.md)
+
 #Import data into table
 1. Create a table with a field for each column in the csv file that we want to import
 
@@ -27,4 +29,4 @@
 
 3. Follow import instructions  
 
-[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/7-innerjoin.md) - [Next >>>]()
+[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/7-innerjoin.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/9-excel_v_db.md)
