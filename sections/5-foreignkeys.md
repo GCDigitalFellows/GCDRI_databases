@@ -1,4 +1,4 @@
-[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/4-updatefield.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/6-commonqueries.md)  
+[<<< Back](4-updatefield.md) - [Next >>>](6-commonqueries.md)  
 
 #Relating tables with foreign keys  
 

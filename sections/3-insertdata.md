@@ -1,4 +1,4 @@
-[<<< Back](sections/2-buildtable.md) - [Next >>>](sections/4-updatefield.md)
+[<<< Back](2-buildtable.md) - [Next >>>](4-updatefield.md)
 
 # Inserting data into an SQL table
 

@@ -1,6 +1,7 @@
-[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/7-innerjoin.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/9-excel_v_db.md)
+[<<< Back](7-innerjoin.md) - [Next >>>](9-excel_v_db.md)
 
-#Import data into table
+# Import data into table
+
 1. Create a table with a field for each column in the csv file that we want to import
 
 	```
@@ -24,9 +25,8 @@
 
 2. Double click on the table "nypl_items" in the databases window and click on the import icon  
 
-	![Importing a csv file to a new table](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/csv_import.png)
+![Importing a csv file to a new table](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/csv_import.png)
 
+3. Follow import instructions
 
-3. Follow import instructions  
-
-[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/7-innerjoin.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/9-excel_v_db.md)
+[<<< Back](7-innerjoin.md) - [Next >>>](9-excel_v_db.md)

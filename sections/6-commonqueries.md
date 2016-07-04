@@ -36,33 +36,39 @@ Practice executing these queries and see what they return.
 	FROM students;
 	```  
 
-	####Challenge #1: Write a query that returns "program_name" and "program_level" for each record in the "programs" table.  
+### Challenge
+
+Write a query that returns "program_name" and "program_level" for each record in the "programs" table.
 
 
-	####Solution!
-	```
-	SELECT program_name, program_level
-	FROM programs;
-	```
+### Solution
+
+```
+SELECT program_name, program_level
+FROM programs;
+```
 
 4. In this query, `WHERE` filters the records by their value in the "id" field:  
-	```
-	--SHOW ALL FIELDS FOR EACH RECORD IN THE TABLE STUDENTS WHERE THE VALUE OF THE
-	--ID FIELD IS EQUAL TO "3"
-	SELECT *
-	FROM students
-	WHERE id = '3';
-	```  
 
-	####Challenge #2: Write a query that returns entire records for _**only**_ Ph.D programs in the 'programs' table.  
+```
+--SHOW ALL FIELDS FOR EACH RECORD IN THE TABLE STUDENTS WHERE THE VALUE OF THE
+--ID FIELD IS EQUAL TO "3"
+SELECT *
+FROM students
+WHERE id = '3';
+```
+
+### Challenge
+
+Write a query that returns entire records for _**only**_ Ph.D programs in the 'programs' table.
 
 
-	####Solution!
-	```
-	SELECT *
-	FROM programs  
-	WHERE program_level = "Ph.D.";
-	```
+### Solution
 
+```
+SELECT *
+FROM programs
+WHERE program_level = "Ph.D.";
+```
 	
-[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/5-foreignkeys.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/7-innerjoin.md)
+[<<< Back](5-foreignkeys.md) - [Next >>>](7-innerjoin.md)
