@@ -2,7 +2,7 @@
 
 # Building tables
 
-The next step is to create tables to hold your data. From here onwards, we are going to execute database queries using the SQL editor to practice SQL syntax.  
+The next step is to create tables to hold your data. From here onwards, we are going to execute database queries using the SQL editor to practice SQL syntax.
   
 1. Open the SQL editor:
 
