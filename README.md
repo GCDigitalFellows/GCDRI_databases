@@ -9,12 +9,12 @@ A database is a collection of data that is structured to allow for manipulation.
 [Updating table fields](sections/4-updatefield.md)  
 [Foreign keys!](sections/5-foreignkeys.md)  
 [General database queries](sections/6-commonqueries.md)  
-[INNER JOIN!](sections/7-innerjoin.md)  
+[Joins](sections/7-innerjoin.md)  
 [Importing a csv file into a SQL table](sections/8-importcsv.md)     
 [Databases vs. Excel](sections/9-excel_v_db.md)    
 [SQL + Python = Awesome!](sections/10-pyplussql-pseudo.md)    
 
-### Requirements:
+### Requirements
 
 [SQLite](https://www.sqlite.org/) (already present on OSX)  
 [SQLiteStudio](http://sqlitestudio.pl/)  

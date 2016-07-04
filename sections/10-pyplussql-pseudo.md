@@ -1,4 +1,4 @@
-[<<< Back](9-excel_v_db.md) - [Back to top](../README.md)
+[<<< Back](9-excel_v_db.md) - [Back to top >>>](../README.md)
 
 # SQL + Python = Awesome!
 
@@ -6,10 +6,9 @@ You can create a program to interact with a database by embedding SQL syntax in 
 
 Let's write a short program that asks a user for a place name and returns all records from the database that contain the value in the "place" field.  
 
-0\. From the command line, create a file called "nypl_search.py" in the directory where the "nypldb.db" database is, then open the file in Sublime  
-_**Hint:** Use_ `touch` to create the file  
+0\. Using Sublime, create a file called "nypl_search.py" in the directory where the "nypldb.db" database is located.
 
-1\. Write the pseudocode in "nypl_search.py"
+1\. Write some pseudocode in "nypl_search.py" that describes what our code will do once it's finished:
 
 ```Python
 # import sqlite3 library
@@ -25,7 +24,7 @@ _**Hint:** Use_ `touch` to create the file
 # return a list of records from the database that are from the place name
 ```
 
-2\. Import the sqlite3 library, connect to the database, and create a cursor object (don't worry about this last part)
+2\. Import the sqlite3 library, connect to the database, and create a cursor object. (Don't worry about this last part!)
 
 ```Python
 # import sqlite3 library
@@ -38,7 +37,7 @@ conn = sqlite3.connect('nypldb.db')
 c = conn.cursor()
 ```  
 
-3\. Translate pseudocode to Python and SQL
+3\. Replace pseudocode with working Python and SQL
 
 ```Python
 # say hello to the user
@@ -59,8 +58,10 @@ for i in record_list:
 
 4\. Run the program. First, open the command line, `cd` to the directory containing your "nypl_search.py" file and "nypldb.db" database. Then type 
 
-    python3 nypl_search.py
+    python nypl_search.py
 	
-and hit Enter.
+and hit Enter. You'll be prompted to enter a place name, which is case-sensitive. Try "Paris" or some other location, and you should see output from the database returned to you.
 
-[<<< Back](9-excel_v_db.md) - [Back to top](../README.md)
+Congratulations! You've successfully accessed your database using a Python script. This is an excellent first step in performing data analysis on large data sets or creating your own applications. You'll use these skills in later sections, including **Introduction to Natural Language Processing with NLTK** and **Introduction to Web Frameworks with Flask**.
+
+[<<< Back](9-excel_v_db.md) - [Back to top >>>](../README.md)
