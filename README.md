@@ -5,14 +5,14 @@ A database is a collection of data that is structured to allow for manipulation.
 [Introduction to databases](sections/0-dbintro.md)  
 [Building a database](sections/1-builddb.md)  
 [Building tables](sections/2-buildtable.md)  
-[Inserting data into tables](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/3-insertdata.md)  
-[Updating table fields](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/4-updatefield.md)  
-[Foreign keys!](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/5-foreignkeys.md)  
-[General database queries](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/6-commonqueries.md)  
-[INNER JOIN!](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/7-innerjoin.md)  
-[Importing a csv file into a SQL table](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/8-importcsv.md)     
-[Databases vs. Excel](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/9-excel_v_db.md)    
-[SQL + Python = Awesome!](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/10-pyplussql-pseudo.md)    
+[Inserting data into tables](sections/3-insertdata.md)  
+[Updating table fields](sections/4-updatefield.md)  
+[Foreign keys!](sections/5-foreignkeys.md)  
+[General database queries](sections/6-commonqueries.md)  
+[INNER JOIN!](sections/7-innerjoin.md)  
+[Importing a csv file into a SQL table](sections/8-importcsv.md)     
+[Databases vs. Excel](sections/9-excel_v_db.md)    
+[SQL + Python = Awesome!](sections/10-pyplussql-pseudo.md)    
 
 ### Requirements:
 

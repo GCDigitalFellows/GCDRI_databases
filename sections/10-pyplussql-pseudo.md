@@ -1,4 +1,4 @@
-[<<< Back](9-excel_v_db.md) - [Next >>>](11-pyplussql-sql.md)
+[<<< Back](9-excel_v_db.md) - [Back to top](../README.md)
 
 # SQL + Python = Awesome!
 
@@ -63,4 +63,4 @@ for i in record_list:
 	
 and hit Enter.
 
-[<<< Back](9-excel_v_db.md) - [Next >>>](12-pyplussql-sql.md)
+[<<< Back](9-excel_v_db.md) - [Back to top](../README.md)

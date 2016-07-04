@@ -1,6 +1,6 @@
-[<<< Back](6-commonqueries.md) - [Next >>>](breaktime.md)  
+[<<< Back](6-commonqueries.md) - [Next >>>](8-importcsv.md)  
 
-# INNER JOIN
+# Joins
 
 Each of the queries up to now has just returned data from a single table in the database. This final query combines our "students" and "programs" tables using the `INNER JOIN` and `ON` clause:
 

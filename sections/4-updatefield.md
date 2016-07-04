@@ -32,7 +32,7 @@ Update the "program_level" field for "Biology" and "Anthropology".
 Hint: You can do this with one statement using_ `IN`
 
 
-#### Solution:
+#### Solution
 
 	```
 	UPDATE programs

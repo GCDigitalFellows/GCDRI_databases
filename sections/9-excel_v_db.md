@@ -1,9 +1,8 @@
 [<<< Back](8-importcsv.md) - [Next >>>](10-pyplussql-pseudo.md)
 
-# Time to pause and reflect
+# Pause and reflect
 
-### Why would you learn how to use relational databases when you already know Excel*?
-
+### Why learn relational databases when I know Excel?
 
 1. ##### Data integrity  
 	- Databases force every value in a particular field to be one data type  
