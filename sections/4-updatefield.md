@@ -1,5 +1,3 @@
-[<<< Back](3-insertdata.md) - [Next >>>](5-foreignkeys.md)
-
 # Updating fields
 
 You can alter tables after they've been created. The SQL syntax below adds another field to the existing table and then populates that field with data.
@@ -13,7 +11,7 @@ You can alter tables after they've been created. The SQL syntax below adds anoth
 
 	If the query was successful, your database should now look like this (you may need to hit the refresh button to see the changes):
 
-	![Your database after adding the new "program_level" field](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/new_field.png)  
+	![Your database after adding the new "program_level" field](images/new_field.png)  
 
 
 
@@ -39,5 +37,3 @@ Hint: You can do this with one statement using_ `IN`
 	SET program_level = "Master's"
 	WHERE program_name IN ("Anthropology", "Biology");
 	```  
-	
-[<<< Back](3-insertdata.md) - [Next >>>](5-foreignkeys.md)

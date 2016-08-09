@@ -1,5 +1,3 @@
-[<<< Back](4-updatefield.md) - [Next >>>](6-commonqueries.md)  
-
 #Relating tables with foreign keys  
 
 At this point, we're going to create a second table called "students" to illustrate the relational nature of relational databases. We use the same syntax that we used to create the "programs" table, but with one extra element: **a foreign key**.  
@@ -16,7 +14,7 @@ At this point, we're going to create a second table called "students" to illustr
 
 	The structure of your "students" table should look like this:  
 
-	![Structure of the new "students" table](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/student_tab_struc.png)  
+	![Structure of the new "students" table](images/student_tab_struc.png)  
 
 	
 
@@ -44,5 +42,3 @@ At this point, we're going to create a second table called "students" to illustr
 	```  
 	
 	_**We will make use of the foreign key in the next step!**_  
-
-[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/4-updatefield.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/6-commonqueries.md)  

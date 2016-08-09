@@ -1,5 +1,3 @@
-[<<< Back](2-buildtable.md) - [Next >>>](4-updatefield.md)
-
 # Inserting data into an SQL table
 
 Now that we have a table structure, we need to insert some data.  
@@ -22,6 +20,4 @@ INSERT INTO programs(program_name) VALUES
 
 2. Click on "Data" to view the data that you just inserted into the "programs" table.  
 
-	![Click "Data" to view "programs" table with new data](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/view_table.png)  
-	
-[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/2-buildtable.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/4-updatefield.md)
+	![Click "Data" to view "programs" table with new data](images/view_table.png)  

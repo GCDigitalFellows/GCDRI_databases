@@ -1,5 +1,3 @@
-[<<< Back](8-importcsv.md) - [Next >>>](10-pyplussql-pseudo.md)
-
 # Pause and reflect
 
 ### Why learn relational databases when I know Excel?
@@ -17,6 +15,3 @@
 
 5. #####Connecting your data  
 	- Databases are ready to plug into other applications  
-
-
-[<<< Back](8-importcsv.md) - [Next >>>](10-pyplussql-pseudo.md)
