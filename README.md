@@ -8,11 +8,14 @@ A database is a collection of data that is structured to allow for manipulation.
 [Inserting data into tables](sections/3-insertdata.md)  
 [Updating table fields](sections/4-updatefield.md)  
 [Foreign keys!](sections/5-foreignkeys.md)  
-[General database queries](sections/6-commonqueries.md)  
-[Joins](sections/7-innerjoin.md)  
-[Importing a csv file into a SQL table](sections/8-importcsv.md)     
-[Databases vs. Excel](sections/9-excel_v_db.md)    
-[SQL + Python = Awesome!](sections/10-pyplussql-pseudo.md)    
+[Challenge: Build some more tables](sections/6-buildtable_challenge.md)
+[General database queries](sections/7-commonqueries.md)  
+[Joins](sections/8-innerjoin.md)  
+[Importing a csv file into a SQL table](sections/9-importcsv.md)  
+[More querying](sections/10-usefulqueries.md)
+[Challenge: Use queries to summarize your data](sections/11-queries_challenge.md)
+[Databases vs. Excel](sections/12-excel_v_db.md)    
+[SQL + Python = Awesome!](sections/13-pyplussql-pseudo.md)    
 
 ### Requirements
 

@@ -1,4 +1,4 @@
-[<<< Back](6-commonqueries.md) - [Next >>>](8-importcsv.md)  
+[<<< Back](7-commonqueries.md) - [Next >>>](9-importcsv.md)  
 
 # Joins
 
@@ -32,4 +32,4 @@ FROM students INNER JOIN programs
 ON students.id_program = programs.id;
 ```
 	
-[<<< Back](6-commonqueries.md) - [Next >>>](8-importcsv.md)
+[<<< Back](7-commonqueries.md) - [Next >>>](9-importcsv.md)

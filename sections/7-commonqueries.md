@@ -1,4 +1,4 @@
-[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/5-foreignkeys.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/7-innerjoin.md)  
+[<<< Back](6-buildtable_challenge.md) - [Next >>>](8-innerjoin.md)  
 
 #Querying your database  
 
@@ -71,4 +71,4 @@ FROM programs
 WHERE program_level = "Ph.D.";
 ```
 	
-[<<< Back](5-foreignkeys.md) - [Next >>>](7-innerjoin.md)
+[<<< Back](6-buildtable_challenge.md) - [Next >>>](8-innerjoin.md)  

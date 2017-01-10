@@ -1,4 +1,4 @@
-[<<< Back](4-updatefield.md) - [Next >>>](6-commonqueries.md)  
+[<<< Back](4-updatefield.md) - [Next >>>](6-buildtable_challenge.md)  
 
 #Relating tables with foreign keys  
 
@@ -45,4 +45,4 @@ At this point, we're going to create a second table called "students" to illustr
 	
 	_**We will make use of the foreign key in the next step!**_  
 
-[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/4-updatefield.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/6-commonqueries.md)  
+[<<< Back](4-updatefield.md) - [Next >>>](6-buildtable_challenge.md)  

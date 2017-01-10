@@ -1,4 +1,4 @@
-[<<< Back](7-innerjoin.md) - [Next >>>](9-excel_v_db.md)
+[<<< Back](8-innerjoin.md) - [Next >>>](10-usefulqueries.md)
 
 # Import data into table
 
@@ -29,4 +29,4 @@
 
 3. Follow import instructions
 
-[<<< Back](7-innerjoin.md) - [Next >>>](9-excel_v_db.md)
+[<<< Back](8-innerjoin.md) - [Next >>>](10-usefulqueries.md)
