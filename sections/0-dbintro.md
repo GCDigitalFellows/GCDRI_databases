@@ -1,4 +1,4 @@
-[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/README.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/1-builddb.md)  
+[<<< Back](master/README.md) - [Next >>>](1-builddb.md)  
 
 # Introduction to databases  
 
@@ -16,4 +16,4 @@ We’re going to use SQLite in this session because getting set up requires less
 
 The database holds your data, but you need a client to see and interact with that data. There are a few options for SQLite GUI database managers. We will be using [SQLiteStudio](http://sqlitestudio.pl/). SQLite also has a [command-line utility](http://www.sqlite.org/cli.html), which we will not use today.
 
-[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/README.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/1-builddb.md)
+[<<< Back](master/README.md) - [Next >>>](1-builddb.md)
