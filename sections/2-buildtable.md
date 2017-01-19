@@ -16,7 +16,7 @@ Your SQLiteStudio interface should look like this:
 
 The syntax for creating a table in SQLite is:
 
-```
+```sql
 CREATE TABLE table_name ( field_name data_type constraints )
 ```
 
@@ -24,7 +24,7 @@ CREATE TABLE table_name ( field_name data_type constraints )
 
 - The [constraints](http://www.tutorialspoint.com/sqlite/sqlite_constraints.htm) will affect the behavior of that field. For example, a field with a `NOT NULL` constraint means that each record must have some data in this field.   
 	
-```
+```sql
 CREATE TABLE programs  (  
 	id INTEGER PRIMARY KEY,  
 	program_name VARCHAR  
