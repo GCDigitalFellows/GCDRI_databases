@@ -46,6 +46,8 @@ ON gpas.id_student = student.id
 INNER JOIN programs
 ON programs.id = student.id_program
 SORT BY gpas.gpa ASC;
-```
+```  
+
+*__How can you make sure that the data from 'gpas', 'students', and 'programs' is aligning correctly?__*
 	
 [<<< Back](7-commonqueries.md) - [Next >>>](9-importcsv.md)
