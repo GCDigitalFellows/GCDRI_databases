@@ -1,4 +1,4 @@
-[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/0-dbintro.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/2-buildtable.md)  
+[<<< Back](0-dbintro.md) - [Next >>>](2-buildtable.md)  
 
 # Building a database
 
@@ -16,4 +16,4 @@ To get started, we're going to use the SQLiteStudio GUI to create the database f
 
 	![Connect to the database you just created](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/images/conn_db.png)  
 
-[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/0-dbintro.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/2-buildtable.md)  
+[<<< Back](0-dbintro.md) - [Next >>>](2-buildtable.md)  
