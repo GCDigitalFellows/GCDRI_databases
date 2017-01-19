@@ -1,6 +1,8 @@
 [<<< Back](8-innerjoin.md) - [Next >>>](10-usefulqueries.md)
 
-# Import data into table
+# Import data into table  
+
+Let's create a database table from an existing csv file.
 
 1. Create a table with a field for each column in the csv file that we want to import
 
@@ -9,7 +11,7 @@
 		id INTEGER PRIMARY KEY,
 		title VARCHAR,
 		contributor VARCHAR,
-		date VARCHAR,
+		year VARCHAR,
 		language VARCHAR,
 		description VARCHAR,
 		note VARCHAR,
