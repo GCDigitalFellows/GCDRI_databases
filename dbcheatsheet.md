@@ -70,7 +70,7 @@
 
     9. `IS NOT` - is not equal to a value (or is not empty for `IS NOT NULL`)
 
-6. `ORDER field_a BY ASC/DESC` - format how results are displayed - arrange records returned by values in *field_a* according to ascending order (`DESC` for descending order)
+6. `ORDER BY field_a ASC/DESC` - format how results are displayed - arrange records returned by values in *field_a* according to ascending order (`DESC` for descending order)
 
 
 ####Misc.
