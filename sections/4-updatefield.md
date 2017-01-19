@@ -36,10 +36,10 @@ Hint: You can do this with one statement using_ `IN`
 
 #### Solution
 
-	```sql
-	UPDATE programs
-	SET program_level = "Master's"
-	WHERE program_name IN ("Anthropology", "Biology");
-	```
+```sql
+UPDATE programs
+SET program_level = "Master's"
+WHERE program_name IN ("Anthropology", "Biology");
+```
 	
 [<<< Back](3-insertdata.md) - [Next >>>](5-foreignkeys.md)
