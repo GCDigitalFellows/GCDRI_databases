@@ -19,25 +19,27 @@ You can alter tables after they've been created. The SQL syntax below adds anoth
 
 2. Now, let's populate the new empty "program_level" field with some data  
 
-```
-UPDATE programs		--select the table to update
-SET program_level = "Ph.D."		--select the field and value to update
-WHERE program_name = 'Linguistics';		--select the condition for updating
-```
+	```sql
+	UPDATE programs		--select the table to update
+	SET program_level = "Ph.D."		--select the field and value to update
+	WHERE program_name = 'Linguistics';		--select the condition for updating
+	```
 
 ### Challenge
 
-Update the "program_level" field for "Biology" and "Anthropology".
+Update the "program_level" field for "Biology" and "Anthropology" with "Master's".
 
 Hint: You can do this with one statement using_ `IN`
 
 
+
+
 #### Solution
 
-	```
+	```sql
 	UPDATE programs
 	SET program_level = "Master's"
 	WHERE program_name IN ("Anthropology", "Biology");
-	```  
+	```
 	
 [<<< Back](3-insertdata.md) - [Next >>>](5-foreignkeys.md)
