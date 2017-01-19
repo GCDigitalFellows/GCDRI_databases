@@ -1,9 +1,16 @@
 [<<< Back](5-foreignkeys.md) - [Next >>>](7-commonqueries.md)  
 
-# Challenge: Build more tables!
+# Challenge: Build a table for GPA!
 
-some exercises to build one or two additional tables with foreign keys and perhaps new data types
+Let's imagine that we want to connect each student to their GPA. How can we do this?
 
-solutions at the bottom
+ 
+  
+
+
+
+
+## **Solution 
+ 
 
 [<<< Back](5-foreignkeys.md) - [Next >>>](7-commonqueries.md)  
