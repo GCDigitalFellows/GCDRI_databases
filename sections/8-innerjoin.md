@@ -40,11 +40,11 @@ Write a query that returns the name of each student, their program name, and the
 ### Solution
 
 ```sql
-SELECT student, program, gpa
+SELECT student, program_name, gpa
 FROM students INNER JOIN gpas
-ON gpas.id_student = student.id
+ON gpas.id_student = students.id
 INNER JOIN programs
-ON programs.id = student.id_program
+ON programs.id = students.id_program
 ORDER BY gpas.gpa ASC;
 ```  
 
