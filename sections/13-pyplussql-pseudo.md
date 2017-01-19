@@ -10,51 +10,51 @@ Let's write a short program that asks a user for a place name and returns all re
 
 1\. Write some pseudocode in "nypl_search.py" that describes what our code will do once it's finished:
 
-	```Python
-	# import sqlite3 library
+```Python
+# import sqlite3 library
 
-	# connect to the database
+# connect to the database
 
-	# say hello to the user
+# say hello to the user
 
-	# ask the user for a place
+# ask the user for a place
 
-	# search the place field in the "nypl_items" table for the place name
+# search the place field in the "nypl_items" table for the place name
 
-	# return a list of records from the database that are from the place name
-	```
+# return a list of records from the database that are from the place name
+```
 
 2\. Import the sqlite3 library, connect to the database, and create a cursor object. (Don't worry about this last part!)
 
-	```Python
-	# import sqlite3 library
-	import sqlite3
+```Python
+# import sqlite3 library
+import sqlite3
 
-	# connect to the database
-	conn = sqlite3.connect('nypldb.db')
+# connect to the database
+conn = sqlite3.connect('nypldb.db')
 
-	# create a cursor object  
-	c = conn.cursor()
-	```  
+# create a cursor object  
+c = conn.cursor()
+```  
 
 3\. Replace pseudocode with working Python and SQL
 
-	```Python
-	# say hello to the user
-	print("Hello! I will search your database for items from any place you tell me! ")
+```Python
+# say hello to the user
+print("Hello! I will search your database for items from any place you tell me! ")
 
-	# ask the user for a place name
-	place_name = input("Please give me a place name: ")
+# ask the user for a place name
+place_name = input("Please give me a place name: ")
 
-	# search the place field for the place name
-	cur.execute("SELECT * FROM nypl_items WHERE place = ?", (place_name,))
+# search the place field for the place name
+cur.execute("SELECT * FROM nypl_items WHERE place = ?", (place_name,))
 
-	# return a list of records from the database that contain the keyword
-	record_list = cur.fetchall()
+# return a list of records from the database that contain the keyword
+record_list = cur.fetchall()
 
-	for i in record_list:
-		print("\n\n", i)
-	``` 
+for i in record_list:
+	print("\n\n", i)
+``` 
 
 4\. Run the program. First, open the command line, `cd` to the directory containing your "nypl_search.py" file and "nypldb.db" database. Then type 
 
