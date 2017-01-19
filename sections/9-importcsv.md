@@ -4,7 +4,7 @@
 
 1. Create a table with a field for each column in the csv file that we want to import
 
-	```
+	```sql
 	CREATE TABLE nypl_items (
 		id INTEGER PRIMARY KEY,
 		title VARCHAR,
