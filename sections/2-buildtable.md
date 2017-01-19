@@ -20,16 +20,16 @@ The syntax for creating a table in SQLite is:
 CREATE TABLE table_name ( field_name data_type constraints )
 ```
 
-	- The [data type](https://www.sqlite.org/datatype3.html) will affect the behavior of the data in that field. For example, whether the data itself is treated as text or a number.  
+- The [data type](https://www.sqlite.org/datatype3.html) will affect the behavior of the data in that field. For example, whether the data itself is treated as text or a number.  
 
-	- The [constraints](http://www.tutorialspoint.com/sqlite/sqlite_constraints.htm) will affect the behavior of that field. For example, a field with a `NOT NULL` constraint means that each record must have some data in this field.   
+- The [constraints](http://www.tutorialspoint.com/sqlite/sqlite_constraints.htm) will affect the behavior of that field. For example, a field with a `NOT NULL` constraint means that each record must have some data in this field.   
 	
-	```
-	CREATE TABLE programs  (  
-		id INTEGER PRIMARY KEY,  
-		program_name VARCHAR  
-	);
-	```
+```
+CREATE TABLE programs  (  
+	id INTEGER PRIMARY KEY,  
+	program_name VARCHAR  
+);
+```
 
 Highlight the code you just entered in the SQL editor and click the blue triangle to execute it.
 	
