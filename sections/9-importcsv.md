@@ -1,15 +1,17 @@
-[<<< Back](7-innerjoin.md) - [Next >>>](9-excel_v_db.md)
+[<<< Back](8-innerjoin.md) - [Next >>>](10-usefulqueries.md)
 
-# Import data into table
+# Import data into table  
+
+Let's create a database table from an existing csv file.
 
 1. Create a table with a field for each column in the csv file that we want to import
 
-	```
+	```sql
 	CREATE TABLE nypl_items (
 		id INTEGER PRIMARY KEY,
 		title VARCHAR,
 		contributor VARCHAR,
-		date VARCHAR,
+		year VARCHAR,
 		language VARCHAR,
 		description VARCHAR,
 		note VARCHAR,
@@ -29,4 +31,4 @@
 
 3. Follow import instructions
 
-[<<< Back](7-innerjoin.md) - [Next >>>](9-excel_v_db.md)
+[<<< Back](8-innerjoin.md) - [Next >>>](10-usefulqueries.md)

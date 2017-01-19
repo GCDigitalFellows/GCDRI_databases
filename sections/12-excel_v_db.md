@@ -1,4 +1,4 @@
-[<<< Back](8-importcsv.md) - [Next >>>](10-pyplussql-pseudo.md)
+[<<< Back](11-querieschallenge.md) - [Next >>>](13-pyplussql-pseudo.md)
 
 # Pause and reflect
 
@@ -19,4 +19,4 @@
 	- Databases are ready to plug into other applications  
 
 
-[<<< Back](8-importcsv.md) - [Next >>>](10-pyplussql-pseudo.md)
+[<<< Back](11-querieschallenge.md) - [Next >>>](13-pyplussql-pseudo.md)

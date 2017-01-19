@@ -1,11 +1,11 @@
-[<<< Back](4-updatefield.md) - [Next >>>](6-commonqueries.md)  
+[<<< Back](4-updatefield.md) - [Next >>>](6-buildtable_challenge.md)  
 
 #Relating tables with foreign keys  
 
 At this point, we're going to create a second table called "students" to illustrate the relational nature of relational databases. We use the same syntax that we used to create the "programs" table, but with one extra element: **a foreign key**.  
 
 1. Create a table called "students" with a field for: (1) a primary key, (2) student name, and (3) a foreign key that will reference the "programs" table  
-	```
+	```sql
 	CREATE TABLE students (
     	id INTEGER PRIMARY KEY,
     	student VARCHAR,
@@ -35,7 +35,7 @@ At this point, we're going to create a second table called "students" to illustr
 		- The foreign keys must be entered manually - YOU decide which program to associate with each student.  
 		
 
-	```
+	```sql
 	INSERT INTO students(student, id_program) VALUES
 	('Josefina', 3),
 	('Cecilia', 2),
@@ -45,4 +45,4 @@ At this point, we're going to create a second table called "students" to illustr
 	
 	_**We will make use of the foreign key in the next step!**_  
 
-[<<< Back](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/4-updatefield.md) - [Next >>>](https://github.com/GCDigitalFellows/GCDRI_databases/blob/master/sections/6-commonqueries.md)  
+[<<< Back](4-updatefield.md) - [Next >>>](6-buildtable_challenge.md)  
